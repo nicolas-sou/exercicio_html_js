@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    background-color: rgba(154, 201, 202, 0.637);
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #fc9700;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;;
+    font-style:  italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e08b0c;
+}
+
+.success-messagem {
+    background-color: #e08b0c;
+    padding: 16px;
+    color: #fff;
+    display: none;
+
+}
+
+.erro-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    outline-color:red ;
+    border-color: red;
+}

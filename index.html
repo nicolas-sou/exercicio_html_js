@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>EBACBanking</title>
+</head>
+<body>
+    <div class="container">
+        <h1>EBAC Banking</h1>
+        <h2>Depósitos</h2>
+        <form id="form-deposito">
+            <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiario" />
+            <p class="erro-message">
+                O nome precisa ser completo
+            </p>
+            <input type="number" id="numero-conta" required placeholder="Numero da conta" />
+            <input type="number" id="valor-deposito" required placeholder="Valor" />
+            <textarea placeholder="Descrição (opcional)" id="descrição"></textarea>
+            <button id="btn-depositar" type="submit">Depositar</button>
+        </form>
+        <p class="success-messagem"></p>
+    </div>
+        <script src="/main.js"></script>
+</body>
+</html>
